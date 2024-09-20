@@ -82,8 +82,6 @@ const Footer = ({ drawerModal }) => {
       </footer>
     );
   }
-
-  return <div>Footer</div>;
 };
 
 export default Footer;

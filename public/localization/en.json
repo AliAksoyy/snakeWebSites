@@ -1,0 +1,91 @@
+{
+  "header": {
+    "home": "Home",
+    "about": "About",
+    "news": "News",
+    "contact": "Contact Us",
+    "button": "Play On Web",
+    "buttonSpan": "Coming soon..."
+  },
+  "home": {
+    "telephone": {
+      "title": "Next-Generation Online Snake Game",
+      "paragraph": "Immerse in thrilling mobile and online snake action! Evolve your snake into an unstoppable force, customize with cosmetics, outfits, and skins. Rise through the ranks, mastering strategy, as your snake dominates the leaderboards. Embark on a journey of growth and supremacy. Are you ready to conquer?",
+      "meduim": {
+        "title": "Next-Generation",
+        "restTitle": "Online Snake Game"
+      }
+    },
+    "gameMode": {
+      "caption": "Different Game Modes",
+      "title": "Entertainment for everyone.",
+      "classicText": "Classic",
+      "deathMatchText": "Death Match",
+      "timelineText": "Timeline",
+      "battleRoyaleText": "Battle Royale",
+      "treasureHuntText": "Treasure Hunt",
+      "classic": "Grow your snake, hunt down your rivals, and become the biggest snake! Strategy and speed are your greatest weapons to survive in an endless adventure.",
+      "deathMatch": "Welcome to the deathmatch, where only the survivors win! Battle with other snakes, defeat your opponents, and savor victory in this deadly arena.",
+      "timeLine": "Are you a snake racing against time? In Timeline mode, you must think quickly to become the biggest snake within the given time. The race has begun; victory can be yours within this time frame!",
+      "battleRoyale": "The battle has started, and the arena is shrinking! In Battle Royale mode, you must use your skills to survive. Defeat your rivals as the play area shrinks and be the last one standing to win.",
+      "treasureHunt": "Welcome to the treasure hunt! Collect gold while racing against other players. Defeat your opponents and seize wealth by collecting the most treasures. Be the best in this fast-paced adventure!"
+    },
+    "powerMode": {
+      "caption": "Feel the Power",
+      "title": " Show your rivals who's boss with power-ups.",
+      "magnifierText": "Magnifier",
+      "magnetText": "Magnet",
+      "2xMultiplierText": "2x Multiplier",
+      "quickTurnText": "Quick Turn",
+      "5xMultiplierText": "5x Multiplier",
+      "healthPotionText": "Health Potion",
+      "magnifier": "Expand the world with magnifier and keep a close eye on your rivals! Don't miss out on hidden opportunities in the game and guide your snake to victory.",
+      "magnet": "Use the magnetic power to quickly follow the path to wealth by attracting gold and food. Stealing the surrounding riches is now just a magnet's reach away.",
+      "2xMultiplier": "Activate the 2x Multiplier and double your score while collecting food! Your snake will grow rapidly and defeat opponents faster.",
+      "quickTurn": "Instantly steer your snake with Quick Turn! Surprise your rivals with this fast response ability and leave those following you behind.",
+      "5xMultiplier": "Make a bigger leap and multiply your score by five with the 5x Multiplier! Your snake will become a formidable force against rivals thanks to this powerful boost.",
+      "healthPotion": "Protect your health with the Health Elixir! Allow your snake to grow without losing score while speeding up. Strengthen yourself and leave your rivals behind."
+    },
+    "buildSnake": {
+      "caption": "Build-up Your Snake",
+      "title": "Discover the power of progression"
+    },
+    "createSnake": {
+      "caption": "Create Your Own Style",
+      "title": "Elevate your style with countless skins and accessories."
+    },
+    "specialSnake": {
+      "caption": "Explore Special Skins",
+      "title": "Be the coolest player in the game with stunning skins."
+    },
+    "snakeNews": {
+      "caption": "News",
+      "title": "Stay up-to-date with us.",
+      "button": "See All News"
+    }
+  },
+  "news": {
+    "caption": "News",
+    "title": "Stay up-to-date with us.",
+    "button":"BACK TO NEWS"
+  },
+  "contact": {
+    "caption": "Contact Us",
+    "title": "Stay connected.",
+    "firstName": "FirstName",
+    "lastName": "LastName",
+    "email": "Email",
+    "topic": "Write Topic",
+    "textArea": "How can we help you",
+    "label": " By submitting, i'm agreed to the",
+    "labelLink": " Terms & Conditons",
+    "button": "Send Your Request"
+  },
+  "footer": {
+    "termsOfService": "Terms of Service",
+    "privacyPolicy": "Privacy Policy",
+    "dataProtection": "Data Protection",
+    "parentsGuide": "Parents Guide",
+    "contactUs": "Contact Us"
+  }
+}

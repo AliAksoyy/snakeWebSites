@@ -1,0 +1,91 @@
+{
+  "header": {
+    "home": " Ana Sayfa",
+    "about": "Hakkında",
+    "news": "Haberler",
+    "contact": "İletişim",
+    "button": " Web'de Oynama",
+    "buttonSpan": "Çok Yakında..."
+  },
+  "home": {
+    "telephone": {
+      "title": "Yeni Nesil Çevrimiçi Snake Oyunu",
+      "paragraph": "Mobil ve çevrimiçi yılan aksiyonunun heyecan dolu dünyasına adım atın! Yılanınızı durdurulamaz bir güce evrimleştirin, çeşitli kozmetikler, kostümler ve derilerle kişiselleştirin. Strateji konusunda ustalaşarak liderlik tablosunda yükselin. Kendinizi geliştirme ve egemenlik yolculuğuna çıkın. Zafer kazanmaya hazır mısınız?",
+      "meduim": {
+        "title": "Yeni Nesil",
+        "restTitle": "Çevrimiçi Yılan Oyunu"
+      }
+    },
+    "gameMode": {
+      "caption": "Farklı Oyun Modları",
+      "title": "Herkes için eğlence.",
+      "classicText": "Klasik",
+      "deathMatchText": "Ölüm Maçı Match",
+      "timelineText": "Zaman Çizelgesi",
+      "battleRoyaleText": "Kraliyet Savaşı",
+      "treasureHuntText": "Define Avı",
+      "classic": "Klasik modda yılanını büyüt, rakiplerini avla ve en büyük yılan ol! Sonsuz bir macerada hayatta kalmak için strateji ve hız senin en büyük silahın.",
+      "deathMatch": "Ölüm maçına hoş geldin, burada hayatta kalanlar kazanır! Diğer yılanlarla savaş, rakiplerini alt et ve bu ölümcül arenada zaferin tadını çıkar.",
+      "timeLine": "Zamanla yarışan bir yılan mısın? Timeline modunda verilen süre içinde en büyük yılan olmak için hızlı düşünmelisin. Yarışın başladı, bu süre zarfında zafer senin olabilir!",
+      "battleRoyale": "Savaş başladı ve alan giderek daralıyor! Battle Royale modunda hayatta kalmak için becerilerini kullanmalısın. Oyun alanı daralırken rakiplerini alt et ve zaferi kazanmak için sona kal.",
+      "treasureHunt": "Hazine avına hoş geldin! Diğer oyuncularla yarışırken altınları topla. Hem rakiplerini alt et, hem de en çok hazineyi toplayarak zenginliği yakala. Bu hızlı tempolu macerada en iyisi sen ol!"
+    },
+    "powerMode": {
+      "caption": "Gücü Hissedin",
+      "title": "Güç artırıcıları kullanarak rakiplerinize patronun kim olduğunu gösterin.",
+      "magnifierText": "Büyüteç",
+      "magnetText": "Mıknatıs",
+      "2xMultiplierText": "2x Çarpan",
+      "quickTurnText": "Hızlı Dönüş",
+      "5xMultiplierText": "5x Çarpan",
+      "healthPotionText": "Can İksiri",
+      "magnifier": "Büyüteçle dünyayı genişletin ve rakiplerinizi yakından izleyin! Oyundaki gizli fırsatları kaçırmayın ve yılanınızı zafer için yönlendirin.",
+      "magnet": "Manyetik güç sayesinde altın ve yemleri çekerek zenginliğe giden yolu hızla izleyin. Etrafınızdaki serveti çalmak artık bir mıknatıs uzaklığında.",
+      "2xMultiplier": "2 Kat Çarpanı etkinleştirin ve yemleri toplarken skorunuzu katlayın! Yılanınız hızla büyüyecek ve rakipleri daha hızlı alt edeceksiniz.",
+      "quickTurn": "Hızlı Dönüşle yılanınızı anında yönlendirin! Bu hızlı tepki yeteneğiyle rakiplerinizi şaşırtın ve sizi takip edenleri geride bırakın.",
+      "5xMultiplier": "Daha büyük bir sıçrama yapın ve 5 Kat Çarpan ile skorunuzu beşe katlayın! Yılanınız bu güçlü artış sayesinde rakiplere karşı korkunç bir güç haline gelecek.",
+      "healthPotion": "Can İksiri ile sağlığınızı koruyun! Hızlanırken skor kaybı yaşamadan yılanınızın büyümesine izin verin. Bu sayede güçlenirken rakiplerinizi geride bırakın."
+    },
+    "buildSnake": {
+      "caption": "Yılanınızı Güçlendirin",
+      "title": "İlerlemenin gücünü keşfedin."
+    },
+    "createSnake": {
+      "caption": "Kendi Tarzınızı Yaratın",
+      "title": "Stilinizi sayısız görünüm ve aksesuar ile yükseltin."
+    },
+    "specialSnake": {
+      "caption": "Özel Görünümleri Keşfedin",
+      "title": "Muhteşem görünüşlerle oyunun en havalı oyuncusu olun."
+    },
+    "snakeNews": {
+      "caption": "Haberler",
+      "title": "Bizimle güncel kalın.",
+      "button": "Tüm Haberleri Gör"
+    }
+  },
+  "news": {
+    "caption": "Haberler",
+    "title": "Bizimle güncel kalmaya devam edin.",
+    "button": "GERİ DÖN"
+  },
+  "contact": {
+    "caption": "İletişim",
+    "title": "Bağlantıda Kal.",
+    "firstName": "İsim",
+    "lastName": "Soy İsim",
+    "email": "Email",
+    "topic": "Konuyu Yaz",
+    "textArea": "Nasıl yardım edebiliriz",
+    "label": "Kabul ediyorum",
+    "labelLink": "Hizmet Koşullarını",
+    "button": "Gönder"
+  },
+  "footer": {
+    "termsOfService": "Hizmet Koşulları",
+    "privacyPolicy": "Gizlilik Politikası",
+    "dataProtection": "Veri Koruma",
+    "parentsGuide": "Ebeveyn Kılavuzu",
+    "contactUs": "İletişim"
+  }
+}

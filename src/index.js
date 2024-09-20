@@ -9,6 +9,7 @@ root.render(
   <React.StrictMode>
     <App />
   </React.StrictMode>
+  // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 );
 
 reportWebVitals();

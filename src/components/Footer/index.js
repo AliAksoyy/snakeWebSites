@@ -74,7 +74,7 @@ const Footer = ({ drawerModal }) => {
               </Link>
             </li>
           </ul>
-          <div className={styles.StoreButtons}>
+          <div className={styles.storeButtons}>
             <LocalizationIcon />
             <StoreButton />
           </div>

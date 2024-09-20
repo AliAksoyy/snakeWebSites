@@ -1,0 +1,225 @@
+@font-face {
+    font-family: "Rubik";
+    src: local(""), url("../assets/fonts/Rubik-Regular.ttf") format("truetype");
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  :root {
+    --textColor: #ffffff;
+    --textColorActive: #333333;
+    --textColorInActive: #787878;
+    --buttonHover: #59c1ff;
+    --buttonColorInActive: #41aeef;
+    --buttonColorActive: #2b8bc5;
+    --buttonColorDanger: #ef4141;
+    --buttonColorSuccess: #30a51d;
+    --fontFamily: Rubik;
+  
+    h1 {
+      color: var(--textColorActive);
+      font-family: var(--fontFamily);
+      font-size: 56px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 100%; /* 56px */
+      letter-spacing: -1.12px;
+    }
+  
+    h2 {
+      color: var(--textColorActive);
+      font-family: var(--fontFamily);
+      font-size: 48px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 95%; /* 45.6px */
+      letter-spacing: -1.92px;
+    }
+  
+    h3 {
+      color: var(--textColorActive);
+      font-family: var(--fontFamily);
+      font-size: 32px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 110%; /* 35.2px */
+      letter-spacing: -0.64px;
+    }
+  
+    h4 {
+      color: var(--textColorActive);
+      font-family: var(--fontFamily);
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 130%; /* 31.2px */
+      letter-spacing: -0.48px;
+    }
+    h5 {
+      color: var(--textColorActive);
+      font-family: var(--fontFamily);
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 140%; /* 31.2px */
+      letter-spacing: -0.32px;
+    }
+    h6 {
+      color: var(--textColorActive);
+      font-family: var(--fontFamily);
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 140%; /* 31.2px */
+      letter-spacing: -0.32px;
+    }
+  
+    .subtitleLight {
+      color: #787878;
+      font-family: var(--fontFamily);
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 140%; /* 25.2px */
+      letter-spacing: -0.36px;
+    }
+    .subtitleMedium {
+      color: #787878;
+      font-family: var(--fontFamily);
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 140%; /* 25.2px */
+      letter-spacing: -0.36px;
+    }
+    .subtitleDark {
+      color: var(--textColorActive);
+      font-family: var(--fontFamily);
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 140%; /* 25.2px */
+      letter-spacing: -0.36px;
+    }
+  
+    .subtile2Light {
+      color: #333;
+      font-family: var(--fontFamily);
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 140%; /* 22.4px */
+      letter-spacing: -0.32px;
+    }
+    .subtile3Light {
+      color: #787878;
+      font-family: var(--fontFamily);
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 140%; /* 22.4px */
+      letter-spacing: -0.32px;
+    }
+    .subtitle2Dark {
+      color: var(--textColorActive);
+      font-family: var(--fontFamily);
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 140%; /* 22.4px */
+      letter-spacing: -0.32px;
+    }
+  
+    .paragrafLight {
+      color: var(--textColorActive);
+      font-family: var(--fontFamily);
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 150%; /* 24px */
+    }
+    .paragrafDark {
+      color: var(--textColorActive);
+      font-family: var(--fontFamily);
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 145%; /* 23.2px */
+    }
+  
+    .paragraf2Light {
+      color: var(--textColorActive);
+      font-family: var(--fontFamily);
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 140%; /* 19.6px */
+    }
+    .paragraf2Dark {
+      color: var(--buttonColorInActive);
+      font-family: var(--fontFamily);
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 140%; /* 19.6px */
+      letter-spacing: -0.28px;
+    }
+  
+    .buttonLight {
+      color: var(--textColorActive);
+      font-family: var(--fontFamily);
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+    .buttonMedium {
+      color: var(--textColor);
+      font-family: var(--fontFamily);
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+    }
+    .buttonDark {
+      color: var(--textColorInActive);
+      font-family: var(--fontFamily);
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+    }
+    .buttonDark2 {
+      color: var(--textColorActive);
+      font-family: var(--fontFamily);
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+    }
+  
+    .caption {
+      color: var(--textColorActive);
+      font-family: var(--fontFamily);
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 145%; /* 17.4px */
+      letter-spacing: -0.24px;
+    }
+  
+    #koreaTable {
+      tbody {
+        tr:nth-child(odd) {
+          td:nth-child(1) {
+            border-bottom: 2px solid #fff;
+          }
+        }
+      }
+    }
+  }
+  

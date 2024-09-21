@@ -1,0 +1,222 @@
+.pcContainer {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 2rem;
+    animation: telephone-animation 2s linear;
+    height: 362px;
+    
+  
+    @media screen and (min-width: 1023px) and (max-width: 1350px) {
+      & {
+        position: relative;
+        width: 125vw;
+        margin: 0 auto;
+        animation: none;
+        left: 50%;
+        transform: translateX(-50%);
+        overflow: hidden;
+  
+        .telephoneRight {
+          position: relative;
+          right: -3%;
+          animation: telephoneRight 2s ease;
+        }
+        .telephoneLeft {
+          position: relative;
+          left: -3%;
+          animation: telephoneLeft 2s ease;
+        }
+      }
+    }
+  
+    .content {
+      height: 100%;
+      overflow: hidden;
+      animation: content-animation 2.7s ease;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-evenly;
+  
+      h1 {
+        position: relative;
+        z-index: 100;
+        padding-bottom: 22px;
+        margin: 0 auto;
+  
+        &::before {
+          content: "";
+          background-image: url("../../../assets/telephoneImg/telephoneBackground.svg");
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          position: absolute;
+          display: inline-block;
+          top: 10%;
+          height: 90px;
+          left: 0%;
+          right: 0%;
+          bottom: 0%;
+          z-index: -100;
+        }
+      }
+      p {
+        color: #333 !important;
+        text-align: center;
+        padding: 0px 34px;
+      }
+      position: relative;
+    }
+  }
+  
+  @keyframes telephone-animation {
+    0% {
+      width: 46.6rem;
+      margin: 0 auto;
+    }
+    35% {
+      width: 46.6rem;
+      margin: 0 auto;
+    }
+    50% {
+      margin: 0 auto;
+    }
+    75% {
+      margin: 0 auto;
+    }
+  
+    100% {
+      width: 100%;
+      margin: 0 auto;
+    }
+  }
+  
+  @keyframes telephoneLeft {
+    0% {
+      left: 27.81%;
+    }
+  
+    100% {
+      left: -3%;
+    }
+  }
+  
+  @keyframes telephoneRight {
+    0% {
+      right: 27.81%;
+    }
+  
+    100% {
+      right: -3%;
+    }
+  }
+  @media screen and (min-width: 1023px) and (max-width: 1100px) {
+    @keyframes telephoneLeft {
+      0% {
+        left: 20.8%;
+      }
+  
+      100% {
+        left: -3%;
+      }
+    }
+  }
+  @media screen and (min-width: 1023px) and (max-width: 1100px) {
+    @keyframes telephoneRight {
+      0% {
+        right: 20.8%;
+      }
+  
+      100% {
+        right: -3%;
+      }
+    }
+  }
+  @media screen and (min-width: 1100px) and (max-width: 1150px) {
+    @keyframes telephoneLeft {
+      0% {
+        left: 22.9%;
+      }
+  
+      100% {
+        left: -3%;
+      }
+    }
+  }
+  @media screen and (min-width: 1100px) and (max-width: 1150px) {
+    @keyframes telephoneRight {
+      0% {
+        right: 22.9%;
+      }
+  
+      100% {
+        right: -3%;
+      }
+    }
+  }
+  @media screen and (min-width: 1150px) and (max-width: 1250px) {
+    @keyframes telephoneLeft {
+      0% {
+        left: 24%;
+      }
+  
+      100% {
+        left: -3%;
+      }
+    }
+  }
+  @media screen and (min-width: 1150px) and (max-width: 1250px) {
+    @keyframes telephoneRight {
+      0% {
+        right: 24%;
+      }
+  
+      100% {
+        right: -3%;
+      }
+    }
+  }
+  @media screen and (min-width: 1250px) and (max-width: 1350px) {
+    @keyframes telephoneLeft {
+      0% {
+        left: 26.1%;
+      }
+  
+      100% {
+        left: -3%;
+      }
+    }
+  }
+  @media screen and (min-width: 1250px) and (max-width: 1350px) {
+    @keyframes telephoneRight {
+      0% {
+        right: 26.1%;
+      }
+  
+      100% {
+        right: -3%;
+      }
+    }
+  }
+  
+  @keyframes content-animation {
+    0% {
+      opacity: 0;
+    }
+  
+    50% {
+      opacity: 0;
+    }
+  
+    75% {
+      opacity: 0;
+    }
+  
+    100% {
+      opacity: 1;
+    }
+  }
+  

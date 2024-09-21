@@ -1,0 +1,26 @@
+.container {
+  margin: 8rem 2rem 15rem;
+
+  @media screen and (min-width: 1023px) {
+    & {
+      overflow: hidden;
+      padding: 0;
+      margin: 8rem 0 15rem;
+    }
+  }
+  @media screen and (min-width: 768px) and (max-width: 1024px) {
+    & {
+      margin: 5rem 0 12rem 0;
+    }
+  }
+  @media screen and (min-width: 672px) and (max-width: 768px) {
+    & {
+      margin: 5rem 0 8rem 0;
+    }
+  }
+  @media screen and (max-width: 672px) {
+    & {
+      margin: 5rem 0 4rem 0;
+    }
+  }
+}

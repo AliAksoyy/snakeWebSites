@@ -1,0 +1,64 @@
+.section {
+  background: linear-gradient(
+    90deg,
+    rgba(242, 250, 255, 0) 0%,
+    #f2faff 52.02%,
+    rgba(242, 250, 255, 0) 100%
+  );
+  padding: 3rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .container {
+    width: 78%;
+    @media screen and (max-width: 672px) {
+      & {
+        width: 85%;
+      }
+    }
+
+    .text {
+      text-align: center;
+
+      .header {
+        display: inline-block;
+        position: relative;
+        z-index: 1;
+
+        @media screen and (max-width: 672px) {
+          & {
+            color: #333;
+            text-align: center;
+            font-family: Rubik;
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 110%;
+            letter-spacing: -0.64px;
+          }
+        }
+        @media screen and (max-width: 380px) {
+          & {
+            font-size: 30px;
+          }
+        }
+
+        &::after {
+          content: "";
+          position: absolute;
+          background-image: url("../../assets/gameModeImage/gameModeBackground.svg");
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: center center;
+          position: absolute;
+          left: 40%;
+          right: 0%;
+          top: -10%;
+          bottom: 0;
+          z-index: -1;
+        }
+      }
+    }
+  }
+}

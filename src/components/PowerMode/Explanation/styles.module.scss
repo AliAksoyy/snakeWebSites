@@ -1,0 +1,58 @@
+.explanation {
+  height: 5rem;
+  padding: 1rem;
+  border-radius: 24px;
+  border: 1px solid #41aeef;
+  background: #fff;
+  box-shadow: 0px -8px 8px 0px rgba(171, 171, 171, 0.06),
+    0px 8px 8px 0px rgba(171, 171, 171, 0.06),
+    0px 0px 24px 0px rgba(65, 174, 239, 0.1);
+  text-align: center;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  @media screen and (min-width: 672px) and (max-width: 900px) {
+    & {
+      height: 7rem;
+    }
+  }
+
+  @media screen and (min-width: 500px) and (max-width: 672px) {
+    & {
+      height: 8rem;
+    }
+  }
+  @media screen and (max-width: 500px) {
+    & {
+      height: 9rem;
+    }
+  }
+  .paragraf {
+    margin: 0;
+  }
+  .active {
+    background-image: url("../../../assets/borderIcon/borderTopIcon.png");
+    width: 5rem;
+    height: 5rem;
+    position: absolute;
+    top: -63.5%;
+    transition: all 1.5s ease;
+    @media screen and (min-width: 672px) and (max-width: 900px) {
+      & {
+        top: -44.3%;
+      }
+    }
+
+    @media screen and (min-width: 500px) and (max-width: 672px) {
+      & {
+        top: -39%;
+      }
+    }
+    @media screen and (max-width: 500px) {
+      & {
+        top: -34%;
+      }
+    }
+  }
+}

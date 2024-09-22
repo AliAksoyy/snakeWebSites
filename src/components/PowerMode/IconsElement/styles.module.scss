@@ -1,0 +1,15 @@
+.icons {
+  margin: 2.5rem 0px 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+
+  @media screen and (max-width: 1433px) {
+    & {
+      justify-content: center;
+      gap: 2.5rem;
+    }
+  }
+}

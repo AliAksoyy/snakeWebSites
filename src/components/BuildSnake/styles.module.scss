@@ -1,0 +1,91 @@
+.section {
+  background: linear-gradient(
+    90deg,
+    rgba(242, 250, 255, 0) 0%,
+    #f2faff 52.02%,
+    rgba(242, 250, 255, 0) 100%
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15rem 0;
+  padding: 3rem 0;
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+    & {
+      margin: 12rem 0;
+    }
+  }
+  @media screen and (min-width: 672px) and (max-width: 768px) {
+    & {
+      margin: 8rem 0;
+    }
+  }
+  @media screen and (max-width: 672px) {
+    & {
+      margin: 4rem 0;
+    }
+  }
+
+  .container {
+    width: 78%;
+    @media screen and (min-width: 980px) and (max-width: 1225px) {
+      & {
+        width: 98%;
+      }
+    }
+    @media screen and (min-width: 500px) and (max-width: 980px) {
+      & {
+        width: 78%;
+      }
+    }
+    @media screen and (max-width: 500px) {
+      & {
+        width: 100%;
+      }
+    }
+
+    .title {
+      text-align: center;
+
+      @media screen and (max-width: 980px) {
+        & {
+          margin: 0 auto;
+        }
+      }
+      .header {
+        display: inline-block;
+        position: relative;
+        z-index: 1;
+
+        @media screen and (max-width: 672px) {
+          & {
+            color: #333;
+            text-align: center;
+            font-family: Rubik;
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 110%;
+            letter-spacing: -0.64px;
+          }
+        }
+        &::before {
+          content: "";
+          background-image: url("../../assets/buildSnakeImage/buildSnakeBackground.svg");
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: center center;
+          position: absolute;
+          left: 0%;
+          right: 50%;
+          top: -10%;
+          bottom: 0;
+          z-index: -1;
+        }
+      }
+    }
+    .icons div:last-child {
+      border: none;
+    }
+  }
+}

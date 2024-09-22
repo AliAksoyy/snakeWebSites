@@ -1,7 +1,11 @@
 import React from "react";
-
-const BuildSnakeIcon = () => {
-  return <div>BuildSnakeIcon</div>;
+import styles from "./styles.module.scss";
+const BuildSnakeIcon = ({ src }) => {
+  return (
+    <div className={styles.imgDiv}>
+      <img src={src} alt="img" />
+    </div>
+  );
 };
 
 export default BuildSnakeIcon;

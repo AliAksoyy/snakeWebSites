@@ -1,0 +1,34 @@
+.rectangles {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 3rem;
+
+  @media screen and (max-width: 672px) {
+    & {
+      margin-bottom: 1.5rem;
+    }
+  }
+  .rectContainer {
+    display: flex;
+    gap: 1rem;
+    @media screen and (max-width: 980px) {
+      & {
+        display: none;
+      }
+    }
+    .rect {
+      display: block;
+      width: 2.5rem;
+      height: 2.9rem;
+      transform: skewX(-10deg);
+      border-radius: 10px;
+      border: 2px solid #ffffff;
+      background-color: #bcbcbc;
+
+      &.active {
+        background-color: #f8bc21;
+      }
+    }
+  }
+}

@@ -40,18 +40,18 @@ const BuildSnake = () => {
   return (
     <section className={styles.section}>
       <div className={styles.container}>
-        <Retangle />
-        <div className={styles.title}>
-          <h2 className={styles.header}>
-            {" "}
-            {languageData[lang]?.data?.home.buildSnake.caption}
-          </h2>
-          <p className="subtitleLight">
-            {" "}
-            {languageData[lang]?.data?.home.buildSnake.title}
-          </p>
-        </div>
-        <Retangle />
+      <Retangle>
+          <div className={styles.title}>
+            <h2 className={styles.header}>
+              {" "}
+              {languageData[lang]?.data?.home.buildSnake.caption}
+            </h2>
+            <p className="subtitleLight">
+              {" "}
+              {languageData[lang]?.data?.home.buildSnake.title}
+            </p>
+          </div>
+        </Retangle>
         <div className={styles.icons}>
           <BuildSnakeIcon src={containerWidth ? map : smallMap} />
           <BuildSnakeIcon src={containerWidth ? magnet : smallMagnet} />

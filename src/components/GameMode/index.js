@@ -11,7 +11,45 @@ const GameMode = () => {
   const { lang } = useLang();
   const languageData = useSelector((state) => state.localization);
 
-  const handleClick = () => {};
+  useEffect(() => {
+    const firstActiveSpanEl = document.querySelector("#activeSpan");
+    const modDescriptionContainer = document.getElementById("mod-description");
+    const firstImgEl = document.getElementById("img")?.getBoundingClientRect();
+
+    firstActiveSpanEl.style.left =
+      firstImgEl.width / 2 +
+      firstImgEl.left -
+      modDescriptionContainer.getBoundingClientRect().left -
+      firstActiveSpanEl.getBoundingClientRect().width / 2 -
+      8 +
+      "px";
+  }, []);
+
+  const handleClick = (e) => {
+    const activeSpanEl = document.querySelector("#activeSpan");
+    const modDescriptionContainer = document.getElementById("mod-description");
+
+    setActiveSpan(e.target.getAttribute("aria-label"));
+    const bound = e.target.getBoundingClientRect();
+
+    const gameCards = document.querySelectorAll("#img");
+
+    gameCards.forEach((card) => {
+      if (card === e.target) {
+        card.parentElement.classList.add(cardStyle.active);
+      } else {
+        card.parentElement.classList.remove(cardStyle.active);
+      }
+    });
+
+    activeSpanEl.style.left =
+      bound.width / 2 +
+      bound.left -
+      modDescriptionContainer.getBoundingClientRect().left -
+      activeSpanEl.getBoundingClientRect().width / 2 -
+      8 +
+      "px";
+  };
 
   return (
     <section className={styles.section}>

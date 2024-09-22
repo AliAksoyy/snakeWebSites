@@ -7,7 +7,6 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const location = useLocation();
-  console.log(location);
   const { lang } = useLang();
   const languageData = useSelector((state) => state.localization);
   return (

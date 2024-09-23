@@ -1,0 +1,129 @@
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  row-gap: 1.5rem;
+
+  .header {
+    display: flex;
+    justify-content: flex-start;
+    column-gap: 1.5rem;
+    align-items: center;
+    padding-bottom: 1rem;
+    width: 100%;
+    @media screen and (max-width: 400px) {
+      & {
+        column-gap: 0.5rem;
+      }
+    }
+
+    h3 {
+      display: inline-block;
+    }
+  }
+
+  .markDownContent {
+    & section {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      row-gap: 1.5rem;
+
+      .paragraf {
+        margin-bottom: 0;
+
+        img {
+          @media screen and (min-width: 1024px) and (max-width: 1375px) {
+            & {
+              width: 20rem;
+            }
+          }
+          @media screen and (max-width: 670px) {
+            & {
+              width: 20rem;
+            }
+          }
+        }
+      }
+
+      .title {
+        font-weight: 700 !important;
+        margin-bottom: 0;
+      }
+
+      .link {
+        text-decoration: none;
+        color: #41aeef;
+        transition: all 0.4s ease;
+        &:hover {
+          color: #59c1ff;
+        }
+      }
+
+      .subTitle {
+        font-weight: 600 !important;
+        margin-bottom: 0;
+      }
+      .table {
+        thead {
+          background: #ebe9e9;
+        }
+        th {
+          padding: 0.7rem;
+          border: 2px solid #ccc;
+        }
+        td {
+          border: 2px solid #ccc;
+          padding: 0.7rem;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          color: var(--textColorActive);
+          font-family: var(--fontFamily);
+        }
+
+        @media screen and (max-width: 450px) {
+          & {
+            th {
+              padding: 0.2rem;
+              border: 1px solid #ccc;
+            }
+            td {
+              border: 1px solid #ccc;
+              padding: 0.2rem;
+              font-size: 14px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.partnerOptOutContainer {
+  width: 40rem;
+  padding: 1rem 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .link {
+    text-decoration: none;
+    color: #41aeef;
+    transition: all 0.4s ease;
+    &:hover {
+      color: #59c1ff;
+    }
+  }
+
+  @media screen and (min-width: 500px) and (max-width: 650px) {
+    padding: 1rem 3rem;
+  }
+  @media screen and (max-width: 500px) {
+    padding: 1rem 2rem;
+    width: 30rem;
+  }
+}

@@ -20,17 +20,17 @@ const News = ({ drawerModal }) => {
     } else {
       document.body.style.overflow = "unset";
     }
-
     return () => {
       document.body.style.overflow = "unset";
     };
   }, [drawerModal]);
 
   return (
-    <main className={newsPageStyles.main}>
+    <main id="newsMain" className={newsPageStyles.main}>
       <NewsHeader />
       {news?.length > 0 ? (
         <>
+          {" "}
           <NewsContent
             newsData={news}
             page={page}

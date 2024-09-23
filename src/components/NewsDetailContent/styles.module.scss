@@ -1,0 +1,22 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  align-self: start;
+  column-gap: 1.5rem;
+
+  .link {
+    color: #41aeef !important;
+    text-decoration: none;
+    margin-top: 1.5rem;
+    transition: all 0.3s ease;
+    cursor: pointer;
+
+    &:hover {
+      color: #59c1ff !important;
+    }
+  }
+}
+
+.subTitle {
+  margin: 1rem 0;
+}

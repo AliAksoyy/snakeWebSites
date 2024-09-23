@@ -1,0 +1,89 @@
+.section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15rem 0;
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+    & {
+      margin: 12rem 0;
+    }
+  }
+  @media screen and (min-width: 672px) and (max-width: 768px) {
+    & {
+      margin: 8rem 0;
+    }
+  }
+  @media screen and (max-width: 672px) {
+    & {
+      margin-top: 4rem;
+      margin-bottom: 8rem;
+    }
+  }
+
+  .container {
+    width: 78%;
+    height: calc(100% - 3rem);
+
+    .title {
+      text-align: center;
+      margin-bottom: 2.5rem;
+
+      .header {
+        @media screen and (max-width: 672px) {
+          & {
+            color: #333;
+            text-align: center;
+            font-family: Rubik;
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 110%;
+            letter-spacing: -0.64px;
+          }
+        }
+      }
+    }
+
+    .cards {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      flex-wrap: wrap;
+    }
+
+    .newsButton {
+      text-align: center;
+    }
+
+    .button {
+      border-radius: 8px;
+      border: 1px solid #41aeef;
+      width: 160px;
+      padding: 12px 16px;
+      background-color: transparent;
+      color: #41aeef;
+      font-family: Rubik;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 100%;
+      transition: all 0.1s ease;
+
+      @media screen and (min-width: 953px) and (max-width: 1451px) {
+        & {
+          margin-top: 5rem;
+        }
+      }
+      @media screen and (max-width: 954px) {
+        & {
+          margin-top: 3rem;
+        }
+      }
+
+      &:hover {
+        color: #fff;
+        background-color: #41aeef;
+      }
+    }
+  }
+}

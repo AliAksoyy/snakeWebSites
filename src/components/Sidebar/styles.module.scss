@@ -1,0 +1,23 @@
+.container {
+  width: 20rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 1.5rem;
+  position: sticky;
+  top: 150px;
+  @media screen and (max-width: 1024px) {
+    & {
+      width: 100%;
+      align-items: flex-start;
+
+      .dropDownWrapper {
+        width: 20rem !important;
+      }
+      .listsWrapper {
+        width: 100% !important;
+      }
+    }
+  }
+}

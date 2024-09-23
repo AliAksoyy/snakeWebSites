@@ -1,0 +1,39 @@
+.container {
+  padding: 0 0.5rem;
+  background: #41aeef;
+  border-radius: 8px;
+
+  @media screen and (max-width: 400px) {
+    & {
+      width: 18rem;
+      padding: 0 1rem 0 0;
+    }
+  }
+
+  &:hover {
+    background: #59c1ff;
+  }
+
+  .select {
+    width: 20rem;
+    border: none;
+    outline: 0;
+    background: transparent;
+    color: #fff;
+    padding: 0.75rem 1rem;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+
+    @media screen and (max-width: 400px) {
+      & {
+        width: 18rem;
+      }
+    }
+
+    .option {
+      background: #fff !important;
+      color: #333;
+    }
+  }
+}

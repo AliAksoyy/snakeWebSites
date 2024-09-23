@@ -1,0 +1,30 @@
+.snakeIcons {
+  overflow: hidden;
+  white-space: nowrap;
+  padding: 3rem 0.5rem;
+  margin-bottom: 5rem;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+
+  @media screen and (max-width: 900px) {
+    & {
+      padding: 1.5rem 0.5rem;
+    }
+  }
+
+  .snakeIconsSlide {
+    display: flex;
+    animation: 30s slide infinite linear;
+    justify-content: space-between;
+    transition: all 0.4s ease;
+  }
+}
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}

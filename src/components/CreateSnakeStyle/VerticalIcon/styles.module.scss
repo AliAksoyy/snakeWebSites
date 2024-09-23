@@ -1,6 +1,96 @@
 .horn {
-    
+  animation: iconMove 1.5s ease-in-out infinite;
+  transition: all 0.2s ease-in-out;
+
+  @media screen and (max-width: 900px) {
+    & {
+      margin-bottom: 4rem;
+    }
+  }
+
+  @media screen and (max-width: 673px) {
+    & {
+      width: 7rem;
+    }
+  }
+
+  &:hover {
+    animation: growth 1s linear infinite;
+    cursor: pointer;
+  }
 }
-.glasses{}
-.leash{}
-.crown{}
+.glasses {
+  animation: iconMove 1.5s ease-in-out infinite;
+  transition: all 0.2s ease-in-out;
+
+  @media screen and (max-width: 900px) {
+    & {
+      margin-bottom: 4rem;
+    }
+  }
+  @media screen and (max-width: 673px) {
+    & {
+      width: 7rem;
+    }
+  }
+
+  &:hover {
+    animation: growth 1s linear infinite;
+    cursor: pointer;
+  }
+}
+
+.leash {
+  animation: iconMove 1.5s ease-in-out infinite;
+  transition: all 0.2s ease-in-out;
+
+  @media screen and (max-width: 673px) {
+    & {
+      width: 7rem;
+    }
+  }
+  &:hover {
+    animation: growth 1s linear infinite;
+    cursor: pointer;
+  }
+}
+.crown {
+  animation: iconMove 1.5s ease-in-out infinite;
+  transition: all 0.2s ease-in-out;
+
+  @media screen and (max-width: 673px) {
+    & {
+      width: 7rem;
+    }
+  }
+
+  &:hover {
+    animation: growth 1s linear infinite;
+    cursor: pointer;
+  }
+}
+
+@keyframes iconMove {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(30px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes growth {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

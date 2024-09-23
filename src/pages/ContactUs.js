@@ -11,19 +11,18 @@ const ContactUs = ({ drawerModal }) => {
 
   const postContactServer = async (formData) => {
     setLoading(true);
-    try {
-      axios
-        .post(`${process.env.REACT_APP_API_URL}/contact`, formData)
-        .then((res) => {
-          setLoading(false);
-          toastifySuccess("Your request has been successfully sent");
-          return res.data;
-        });
-    } catch (err) {
-      console.log(err);
-      toastifyError(err.message);
-      setLoading(false);
-    }
+    axios
+      .post(`${process.env.REACT_APP_API_URL}/contact`, formData)
+      .then((res) => {
+        setLoading(false);
+        toastifySuccess("Your request has been successfully sent");
+        return res.data;
+      })
+      .catch((err) => {
+        console.log(err);
+        toastifyError(err.message);
+        setLoading(false);
+      });
   };
 
   useEffect(() => {

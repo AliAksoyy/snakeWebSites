@@ -26,12 +26,12 @@ const NewsContent = ({ newsData, page, rowsPerPage, lang }) => {
           (page - 1) * rowsPerPage,
           (page - 1) * rowsPerPage + rowsPerPage
         )
-        ?.map((newsDataItem) => {
+        ?.map((newsDataItem, index) => {
           const { date, title, mdContent } = newsDataItem[lang];
           return (
             <NewsContentCard
               showSmallCardImage={showSmallCardImage}
-              key={newsDataItem.id}
+              key={index}
               date={date}
               title={title}
               id={newsDataItem.id}

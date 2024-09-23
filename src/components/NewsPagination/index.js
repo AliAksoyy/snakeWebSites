@@ -14,15 +14,37 @@ const NewsPagination = ({
 
   useEffect(() => {
     for (let i = 0; i < Math.ceil(dataLength / rowsPerPage); i++) {
-      setTotalNumbers((numbers) => {
-        return [...numbers, i];
+      setTotalNumbers((number) => {
+        return [...number, i];
       });
     }
   }, [dataLength, rowsPerPage]);
 
-  const handleClick = (e) => {};
+  const handleClick = (e) => {
+    const numbersButton = document.querySelectorAll("#paginationButton");
+    numbersButton.forEach((numberButton) => {
+      if (e.target.innerText === numberButton.innerText) {
+        setPage(Number(e.target.innerText));
+      }
+    });
+    document.body.scrollIntoView({
+      behavior: "smooth",
+      inline: "start",
+      blocking: "center",
+    });
+  };
 
-  return <div>NewsPagination</div>;
+  return (
+    <section className={styles.container}>
+      <PaginationIcon totalNumbers={totalNumbers} page={page} setPage={setPage}>
+        <PaginationNumbers
+          handleClick={handleClick}
+          totalNumbers={totalNumbers}
+          page={page}
+        />
+      </PaginationIcon>
+    </section>
+  );
 };
 
 export default NewsPagination;

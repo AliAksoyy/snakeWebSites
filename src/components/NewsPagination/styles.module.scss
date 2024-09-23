@@ -1,0 +1,54 @@
+.container {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+  align-items: center;
+
+  .leftIcon {
+    .button {
+      border: none;
+      background-color: transparent;
+    }
+  }
+
+  .numbers {
+    display: flex;
+    gap: 0.5rem;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+
+    .number.active {
+      border-radius: 8px;
+      background: #41aeef;
+      color: #fff !important;
+      padding: 0.5rem 0.7rem;
+      font-weight: 600;
+      transition: all 0.3s ease;
+
+      &:hover {
+        background-color: #59c1ff;
+        color: #fff !important;
+      }
+    }
+
+    .number {
+      border: none;
+      background-color: transparent;
+      color: #787878 !important;
+      transition: all 0.3s ease;
+      font-weight: 600;
+
+      &:hover {
+        color: #333 !important;
+      }
+    }
+  }
+
+  .rightIcon {
+    .button {
+      border: none;
+      background-color: transparent;
+    }
+  }
+}

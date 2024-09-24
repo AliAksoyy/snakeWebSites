@@ -1,0 +1,70 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 32rem;
+  padding: 2rem;
+  row-gap: 1.2rem;
+
+  @media screen and (max-width: 550px) {
+    & {
+      width: 20rem;
+      padding: 0.5rem;
+    }
+  }
+
+  .inputParent {
+    position: relative;
+    .input {
+      width: 100%;
+      padding: 1rem 0.5rem;
+      display: block;
+      border-radius: 8px;
+      border: 1px solid #acaaaa;
+      background: #fff;
+      box-shadow: 0px 0px 24px 0px rgba(239, 65, 65, 0.06);
+      outline: 0;
+
+      &::placeholder {
+        font-family: "Rubik";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        color: #787878;
+      }
+    }
+    .img {
+      position: absolute;
+      top: 1.2rem;
+      right: 1.4rem;
+      cursor: pointer;
+    }
+
+    .span {
+      display: flex;
+      column-gap: 0.5rem;
+      margin-top: 0.7rem;
+      margin-left: 0.7rem;
+      align-items: center;
+      color: #ef4141 !important;
+    }
+  }
+  .button {
+    width: 80%;
+    margin: 0 auto;
+    padding: 0.6rem 0;
+    border-radius: 8px;
+    background: #41aeef;
+    font-family: "Rubik";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    color: #fff;
+    border: 0;
+    outline: 0;
+    transition: all 0.4s ease;
+
+    &:hover {
+      background: #59c1ff;
+    }
+  }
+}

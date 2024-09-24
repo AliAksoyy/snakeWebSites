@@ -51,3 +51,20 @@ export const contactUsvalidation = (values) => {
 
   return { ...errors, isValid };
 };
+
+export const resetValidation = (values) => {
+  const passwordRegex = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d).{8,}$/;
+  const error = {};
+  if (!values.password) {
+    error.password = "Password is required";
+  } else if (!passwordRegex.test(values.password)) {
+    error.password =
+      "Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters";
+  }
+  if (!values.confirmPassword) {
+    error.confirmPassword = "ConfirmPassword is required";
+  } else if (values.password !== values.confirmPassword) {
+    error.confirmPassword = "Please make sure your passwords match";
+  }
+  return error;
+};

@@ -1,9 +1,18 @@
-import React from 'react'
-
+import React from "react";
+import styles from "../styles/linkExpired.module.scss";
+import LinkExpiredHeader from "../components/LinkExpiredHeader";
+import LinkExpiredContent from "../components/LinkExpiredContent";
+import LinkExpiredImage from "../components/LinkExpiredImage";
+import LinkExpiredButton from "../components/LinkExpiredButton";
 const LinkExpired = () => {
   return (
-    <div>LinkExpired</div>
-  )
-}
+    <main className={styles.main}>
+      <LinkExpiredHeader />
+      <LinkExpiredImage />
+      <LinkExpiredContent />
+      <LinkExpiredButton />
+    </main>
+  );
+};
 
-export default LinkExpired
+export default LinkExpired;
